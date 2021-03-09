@@ -1,0 +1,7 @@
+---
+label: slim-column
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
