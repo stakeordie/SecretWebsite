@@ -5,3 +5,12 @@ fields:
 - type: text
   name: layout
   label: layout
+- name: area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Area
