@@ -14,3 +14,5 @@ fields:
     schema:
       format: markdown
   label: Area
+pages:
+- content/index.md

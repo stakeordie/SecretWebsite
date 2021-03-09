@@ -1,5 +1,6 @@
 ---
 layout: "~/layouts/HomePageLayout"
+area: test
 
 ---
 <slim-column>
