@@ -18,7 +18,9 @@ Blockchains are public by default. That means that all the data used in smart co
 
 <home-card to="/about/about-secret-network" vertical>
 
-### **Learn about**<br>Secret Network
+### **Learn about**
+
+### Secret Network
 
 <separator small />
 
