@@ -10,3 +10,5 @@ fields:
   config:
     required: false
   label: Title
+pages:
+- content/test.md
