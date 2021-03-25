@@ -2,7 +2,9 @@
 layout: "~/layouts/MainPageLayout"
 
 ---
-<template v-slot:title>About Secret Network</template>
+<template v-slot:title>
+  About Secret Network
+</template>
 
 <slim-column>
 
