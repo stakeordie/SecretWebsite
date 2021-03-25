@@ -2,13 +2,7 @@
 layout: "~/layouts/MainPageLayout"
 
 ---
-[giphy.mp4](/src/assets/giphy.mp4 "giphy.mp4")
-
-<template v-slot:title>
-
-## About Secret Network
-
-</template>
+<template v-slot:title>About Secret Network</template>
 
 <slim-column>
 
