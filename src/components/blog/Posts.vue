@@ -1,5 +1,5 @@
 <template>
-  <grid columns="3">
+  <grid :columns="columnNumber">
     <blog-card v-for="{ node } in posts" :key="node.id" :tag="node.primary_tag != null ? node.primary_tag.name : ''">
       <template #tag v-if="node.primary_tag">{{ node.primary_tag.name }}</template>
       <h4><g-link :to="`/blog/${node.slug}`">{{ node.title }}</g-link></h4>
@@ -20,7 +20,7 @@
 <script>
 import BlogCard from '@/components/blog/BlogCard'
 
-const truncateSize = 200
+const truncateSize = 200;
 
 export default {
   components: { BlogCard },
@@ -29,6 +29,16 @@ export default {
       type: Array,
       required: true,
       default: () => []
+    },
+    columns: {
+      type: Number,
+      required: false,
+      default: 3
+    }
+  },
+  computed: {
+    columnNumber: function() {
+      return this.columns.toString();
     }
   },
   filters: {
