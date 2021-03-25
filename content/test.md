@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: ~/layouts/MainPageLayout
 title: test
 
 ---

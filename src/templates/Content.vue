@@ -1,5 +1,6 @@
 <template>
   <base-layout :nav="$page.content.nav">
+  <div @click="testQueryContent()">CLICK ME</div>
     <VueRemarkContent class="content" />
   </base-layout>
 </template>
@@ -9,7 +10,16 @@ import BaseLayout from "../layouts/BaseLayout";
 
 export default {
   name: "Content",
-  components: { BaseLayout }
+  components: { BaseLayout },
+  methods: {
+    testQueryContent() {
+      console.log({
+        title: this.$page.content.title,
+        content: this.$page.content.title,
+        nav: this.$page.content.title
+      })
+    }
+  }
 };
 </script>
 
