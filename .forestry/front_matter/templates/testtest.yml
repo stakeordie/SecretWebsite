@@ -1,4 +1,15 @@
 ---
 label: testtest
 hide_body: true
-fields: []
+fields:
+- name: cards
+  type: list
+  config:
+    use_select: true
+    min: 3
+    max: 6
+    source:
+      type: documents
+      section: content
+      file: content/about/about-secret-network.md
+  label: Cards
