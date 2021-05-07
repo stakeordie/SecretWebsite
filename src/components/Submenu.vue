@@ -25,7 +25,10 @@
 <style lang="scss">
 
 .sub-content {
+<<<<<<< HEAD
   //background: #1b2129;
+=======
+>>>>>>> master
   padding: $gutter-xlarge 0 $gutter-small;
 }
 .submenu {
